@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_outer_classname = "TradeCaptureProto";
+option java_package = "com.abnamro.challenge.futuretxn.messages";
+
+message TradeCaptureMessage {
+    string key = 1;
+    string meta = 2;
+    string rawMessage = 3;
+}
